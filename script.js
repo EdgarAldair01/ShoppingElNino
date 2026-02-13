@@ -150,13 +150,6 @@ const perfumes = [
         precio: 600,
         familia: "Cítrico",
         imagen: "IMAGENES\\Nautica Voyage.png"
-    },{
-        id: 22,
-        nombre: "Fakhar Black",
-        marca: "Bergamota Cedro",
-        precio: 900,
-        familia: "Amaderada",
-        imagen: "IMAGENES\\Fakhar Black.png"
     }
 ];
 
@@ -304,4 +297,5 @@ document.getElementById('searchInput').addEventListener('input', (e) => {
 });
 
 // INICIALIZAR
+
 renderProducts();
