@@ -1,0 +1,95 @@
+/* --- CONFIGURACIÓN DE CABECERA FIJA --- */
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.85); /* Transparencia */
+    backdrop-filter: blur(12px); /* Efecto de desenfoque */
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* --- FILTROS DINÁMICOS (SOLUCIÓN AL CORTE) --- */
+.filter-container {
+    display: flex;
+    gap: 12px;
+    padding: 15px 20px;
+    overflow-x: auto; /* Mantiene el scroll en celular */
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Oculta scroll en Firefox */
+}
+
+/* En pantallas grandes (PC), cambiamos el comportamiento del scroll para que permita centrar */
+@media (min-width: 768px) {
+    .filter-container {
+        overflow-x: visible; /* Quitamos el scroll innecesario en PC */
+        justify-content: center; /* Centrado absoluto */
+    }
+}
+
+.filter-container::-webkit-scrollbar {
+    display: none; /* Oculta scroll en Chrome/Safari */
+}
+
+.filter-btn {
+    flex: 0 0 auto; /* Evita que los botones se encojan */
+    white-space: nowrap;
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: 1px solid #e5e7eb;
+    background: white;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.filter-btn.active {
+    background: #d97706;
+    color: white;
+    border-color: #d97706;
+    box-shadow: 0 4px 10px rgba(217, 119, 6, 0.2);
+}
+
+/* --- AJUSTES DE BUSCADOR EN CELULAR --- */
+@media (max-width: 640px) {
+    header {
+        padding: 10px 15px;
+    }
+    
+    #searchInput {
+        font-size: 14px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .text-3xl {
+        font-size: 1.5rem; /* Logo más pequeño en celular */
+    }
+}
+
+/* --- CARRITO Y OTROS --- */
+#cart-sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    max-width: 400px;
+    height: 100vh;
+    z-index: 2000;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#cart-sidebar.open {
+    transform: translateX(0);
+}
+
+.toast {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3000;
+    width: 80%;
+    max-width: 300px;
+}
