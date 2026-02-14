@@ -5,7 +5,7 @@ const perfumes = [
         nombre: "Toy 2 Pearl",
         marca: "Limón Jazmín",
         precio: 1700,
-        familia: "Cítrico",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Toy 2 Pearl.png"
     },
     {
@@ -13,7 +13,7 @@ const perfumes = [
         nombre: "Toy Boy 2",
         marca: "Azafrán",
         precio: 1800,
-        familia: "Amaderada",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Toy Boy 2.png"
     },
     {
@@ -21,7 +21,7 @@ const perfumes = [
         nombre: "Impact Intense",
         marca: "Lavanda Cedro",
         precio: 1200,
-        familia: "Cítrico",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Impact Intense.png"
     },
     {
@@ -29,134 +29,190 @@ const perfumes = [
         nombre: "DOLCE & GABBANA Q",
         marca: "Limón Almendra",
         precio: 1700,
-        familia: "Cítrico",
+        familia: "Perfumes",
         imagen: "IMAGENES\\DOLCE & GABBANA Q.png"
     },{
         id: 5,
         nombre: "Versace Pour Homme",
         marca: "Azafrán",
         precio: 1200,
-        familia: "Amaderada",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Versace Pour Homme.png"
     },{
         id: 6,
         nombre: "DKNY Delicious Fresh",
         marca: "Pomelo",
         precio: 1300,
-        familia: "Cítrico",
+        familia: "Perfumes",
         imagen: "IMAGENES\\DKNY Delicious Fresh.png"
     },{
         id: 7,
         nombre: "Lacoste Sparkling",
         marca: "Ciprés",
         precio: 1600,
-        familia: "Floral",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Lacoste Sparkling.png"
     },{
         id: 8,
         nombre: "Eilish No. 2",
         marca: "Bergamota Ébano",
         precio: 1200,
-        familia: "Amaderada",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Eilish No. 2.png"
     },{
         id: 9,
         nombre: "Odyssey Mega",
         marca: "Naranja Piña",
         precio: 900,
-        familia: "Cítrico",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Odyssey Mega.png"
     },{
         id: 10,
         nombre: "Club De Nuit Mujer",
         marca: "Rosas Naranja",
         precio: 900,
-        familia: "Floral",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Club De Nuit Mujer.png"
     },{
         id: 11,
         nombre: "Club de Nuit Intense",
         marca: "Limón Ámbar Gris",
         precio: 900,
-        familia: "Frutal",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Club de Nuit Intense.png"
     },{
         id: 12,
         nombre: "Club De Nuit Elixir",
         marca: "Bergamota Nardo",
         precio: 1100,
-        familia: "Cítrico",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Club De Nuit Elixir.png"
     },{
         id: 13,
         nombre: "Club De Nuit Urban",
         marca: "Abeto Bergamota",
         precio: 1000,
-        familia: "Amaderada",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Club De Nuit Urban.png"
     },{
         id: 14,
         nombre: "Asad Zanzibar",
         marca: "Pomelo Pimienta Negra",
         precio: 900,
-        familia: "Frutal",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Asad Zanzibar.png"
     },{
         id: 15,
         nombre: "Al Shuyukh Gold",
         marca: "Caramelo Ámbar",
         precio: 900,
-        familia: "Floral",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Al Shuyukh Gold.png"
     },{
         id: 16,
         nombre: "Hawas for Him",
         marca: "Notas marinas",
         precio: 950,
-        familia: "Frutal",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Hawas for Him.png"
     },{
         id: 17,
         nombre: "Versace Eros",
         marca: "Limón Cedro",
         precio: 1400,
-        familia: "Cítrico",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Versace Eros.png"
     },{
         id: 18,
         nombre: "Versace Crystals",
         marca: "Yuzu Fresco Granada",
         precio: 1500,
-        familia: "Floral",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Versace Crystals.png"
     },{
         id: 19,
         nombre: "9 Pm",
         marca: "Lavanda Bergamota",
         precio: 900,
-        familia: "Cítrico",
+        familia: "Perfumes",
         imagen: "IMAGENES\\9 Pm.png"
     },{
         id: 20,
         nombre: "9 Am",
         marca: "Limón Manzana",
         precio: 900,
-        familia: "Frutal",
+        familia: "Perfumes",
         imagen: "IMAGENES\\9 AM.png"
     },{
         id: 21,
         nombre: "Nautica Voyage",
         marca: "Almizcle Magnolia",
         precio: 600,
-        familia: "Cítrico",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Nautica Voyage.png"
     },{
         id: 22,
         nombre: "Fakhar Black",
         marca: "Bergamota Cedro",
         precio: 900,
-        familia: "Amaderada",
+        familia: "Perfumes",
         imagen: "IMAGENES\\Fakhar Black.png"
+    },{
+        id: 23,
+        nombre: "SPEND MONEY BEIGE",
+        marca: "JC HATS",
+        precio: 800,
+        familia: "Gorras",
+        imagen: "IMAGENES\\SPEND MONEY BEIGE GREEN.png"
+    },{
+        id: 24,
+        nombre: "UNIVERSITY OF LIFE BEIGE",
+        marca: "JC HATS",
+        precio: 800,
+        familia: "Gorras",
+        imagen: "IMAGENES\\UNIVERSITY OF LIFE BEIGE NAVY CURVE.png"
+    },{
+        id: 25,
+        nombre: "UNIVERSITY OF LIFE GRAY",
+        marca: "JC HATS",
+        precio: 800,
+        familia: "Gorras",
+        imagen: "IMAGENES\\UNIVERSITY OF LIFE GRAY CURVE.png"
+    },{
+        id: 26,
+        nombre: "JC GLORY BEIGE",
+        marca: "JC HATS",
+        precio: 800,
+        familia: "Gorras",
+        imagen: "IMAGENES\\JC GLORY BEIGE GREEN.png"
+    },{
+        id: 27,
+        nombre: "JC CHASSE BEIGE",
+        marca: "JC HATS",
+        precio: 800,
+        familia: "Gorras",
+        imagen: "IMAGENES\\JC CHASSE BEIGE.png"
+    },{
+        id: 28,
+        nombre: "CT BONE/BURGUNDY",
+        marca: "JC HATS",
+        precio: 800,
+        familia: "Gorras",
+        imagen: "IMAGENES\\CT BONE-BURGUNDY.png"
+    },{
+        id: 29,
+        nombre: "CASH MONEY WHITE",
+        marca: "JC HATS",
+        precio: 800,
+        familia: "Gorras",
+        imagen: "IMAGENES\\CASH MONEY WHITE.png"
+    },{
+        id: 30,
+        nombre: "JC GLORY BLACK",
+        marca: "JC HATS",
+        precio: 800,
+        familia: "Gorras",
+        imagen: "IMAGENES\\JC GLORY BLACK.jpg"
     }
 ];
 
